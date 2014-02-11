@@ -1,0 +1,29 @@
+{
+    "PHP":[
+    	{
+    		"name":"metro",
+    		"description":"This class houses all of the main functionality of Metrogistics.com",
+    		"class":{
+    			"name":"Metro",
+    			"methods":[
+    				{
+    					"name":"check_injection",
+    					"type":"public",
+    					"description":"Checks string for injection hacks",
+    					"parameters":[
+		    				{
+		    					"name":"str",
+		    					"description":"String being checked for injection",
+		    					"type":"string"
+		    				}
+		    			],
+		    			"return":{
+		    				"type":"boolean",
+		    				"expect":"false"
+		    			}
+    				}
+    			],
+    		}
+    	}
+    ]
+}
