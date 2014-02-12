@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Enjineer</title>
+		<link rel="stylesheet" href="css/master.css" />
+	</head>
+	<body>
+		<nav class="navbar navbar-default navbar-fixed-top" role="navigation"
+ >			<div class="navbar-header">
+				<i class="fa fa-3x fa-rocket"></i>
+				<strong>Enjineer</strong>
+				<p>Beta</p>
+			</div>
+		</nav>
+		<div id="content">
+			<section id="sidebar">
+				<nav>
+					<h4>MetroGistics</h4>
+					<ul>
+						<li>
+							<a href="#">PHP</a>
+						</li>
+						<li>
+							<a href="#">JavaScript</a>
+						</li>
+						<li>
+							<a href="#">Pages</a>
+						</li>
+					</ul>
+				</nav>
+			</section>
+			<div ng-view>Loading...</div>
+		</div>
+		<script src="js/enjineer.js"></script>
+	</body>
+</html>
